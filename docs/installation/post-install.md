@@ -14,7 +14,7 @@ LunarVim uses icons from Nerd Fonts. If you don't want to use them set `lvim.use
 
 ### Easy Installer
 
-Visit [ronniedroid/getnf](https://github.com/ronniedroid/getnf) for an easy way to install nerd fonts.
+Visit [getnf/getnf](https://github.com/getnf/getnf) for an easy way to install nerd fonts.
 
 ### Video Explanation
 
@@ -22,14 +22,14 @@ Visit [ronniedroid/getnf](https://github.com/ronniedroid/getnf) for an easy way 
 
 ### Manual Install
 
-1. Go to the [pached fonts directory](https://www.nerdfonts.com/font-downloads)
+1. Go to the [patched fonts directory](https://www.nerdfonts.com/font-downloads)
 1. Copy the downloaded files to `~/.local/share/fonts`
 
 ### Curl Download
 
 ```bash
 mkdir -p ~/.local/share/fonts
-cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/DroidSansMNerdFont-Regular.otf
 ```
 
 ### Terminal settings

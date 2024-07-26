@@ -72,7 +72,7 @@ Every plugin that works with Neovim works with LunarVim, here are some examples 
 
 #### automatically open mini.map and exclude buffers, filetypes
 
-mini.map doesn't automatically open, by design. The follwing makes sure to fix that and excludes buffers/filetypes you don't want it to open:
+mini.map doesn't automatically open, by design. The following makes sure to fix that and excludes buffers/filetypes you don't want it to open:
 
 ```lua
 lvim.autocommands = {
@@ -821,7 +821,7 @@ table.insert(lvim.builtin.cmp.sources, 1, { name = "copilot" })
 ```lua
 {
   "iamcco/markdown-preview.nvim",
-  run = "cd app && npm install",
+  build = "cd app && npm install",
   ft = "markdown",
   config = function()
     vim.g.mkdp_auto_start = 1

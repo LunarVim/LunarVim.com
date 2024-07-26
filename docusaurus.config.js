@@ -9,6 +9,8 @@ const socials = require('./socials');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LunarVim',
+  tagline:
+    'An IDE layer for Neovim with sane defaults. Completely free and community driven.',
   url: 'https://lunarvim.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -26,7 +28,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'es', 'zh-Hans'],
+    locales: ['en', 'de', 'es', 'uk', 'zh-Hans'],
   },
 
   presets: [
@@ -116,23 +118,23 @@ const config = {
         alt: 'LunarVim Preview',
       },
     ],
+    /**  NOTE: max 3 preferred
+    * for playlists you need to pass playlistCoverId
+    * playlistCoverId = youtube video id
+    */
     YouTube: [
-      /* NOTE: max 3 preferred */
-      /* type: video | playlist */
       {
-        type: 'video',
-        id: 'NPmKRygD7DU',
-        title: 'Neovim v0.8 release',
+        id: 'BHlR_GJaNbI',
+        title: 'You can keep your Neovim Config!',
       },
       {
-        type: 'video',
         id: 'sFA9kX-Ud_c',
         title: 'Install LunarVim Stable Release',
       },
       {
-        type: 'playlist',
         id: 'PLhoH5vyxr6QoYP4bKw0krF4aEn_3_pfWA',
         title: 'LunarVim (IDE for Neovim)',
+        playlistCoverId: 'NlRxRtGpHHk',
       },
     ],
     Contributors: {
@@ -158,7 +160,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'installation',
+            docId: 'installation/installation',
             position: 'left',
             label: 'Docs',
           },
@@ -193,14 +195,14 @@ const config = {
           'python',
         ],
       },
-      // announcementBar: {
-      //   id: 'new_release_1.2',
-      //   content:
-      //     'New Release! <a target="_blank" rel="noopener noreferrer" href="https://github.com/LunarVim/LunarVim">install</a>',
-      //   backgroundColor: 'var(--primary-fg)',
-      //   textColor: 'var(--primary-bg)',
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: 'star_us',
+        content:
+          '🌟 If you like LunarVim, don\'t forget to give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/LunarVim/LunarVim">Github</a> 🌟',
+        backgroundColor: 'var(--primary-fg)',
+        textColor: 'var(--primary-bg)',
+        isCloseable: true,
+      },
     }),
   plugins: [
     [

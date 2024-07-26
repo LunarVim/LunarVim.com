@@ -1,3 +1,4 @@
+Alacritty
 autoclose
 autorename
 autoselect
@@ -12,6 +13,7 @@ fzf
 fzy
 Github
 gitignored
+Gitsigns
 highlighter
 hrsh
 hsl
@@ -32,9 +34,11 @@ scrolloff
 stoggleup
 strlist
 tabpage
-tmux
 todo
+tokyonight
 uelic
 vheight
 vimgrep
 vsplit
+winseparator
+workflow
