@@ -30,6 +30,14 @@ import TabItem from '@theme/TabItem';
 ```bash
 LV_BRANCH='master' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/master/utils/installer/install.sh)
 ```
+To achieve a non-interactive installation, you can supply flags to the installer. For example, to always install dependencies, the `--install-dependencies` flag can be supplied:
+```bash
+LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh) -s -- --install-dependencies
+```
+A list of all installation flags can be found by supplying `-h` (or `--help`):
+```bash
+LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh) -s -- -h
+```
 
 </TabItem>
 <TabItem value="windows" label="Windows">
@@ -61,6 +69,14 @@ All the new features with all the new bugs:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+```
+To achieve a non-interactive installation, you can supply flags to the installer. For example, to always install dependencies, the `--install-dependencies` flag can be supplied:
+```bash
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh) -s -- --install-dependencies
+```
+A list of all installation flags can be found by supplying `-h` (or `--help`):
+```bash
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh) -s -- -h
 ```
 
 </TabItem>
