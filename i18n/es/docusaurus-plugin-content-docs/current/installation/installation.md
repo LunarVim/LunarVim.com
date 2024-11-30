@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Requisitos Previos
 
 - Asegúrate de tener instalado la última versión de [`Neovim v0.8.0+`](https://github.com/neovim/neovim/releases/latest).
-- Debes tener `git`, `make`, `pip`, `npm`, `node` y `cargo` instalados en tu sistema.
+- Debes tener `git`, `make`, `pip`, `npm`, `node`, `unzip` y `cargo` instalados en tu sistema.
 - [Resolver permisos `EACCES` al instalar paquetes globalmente](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) para evitar errores al instalar paquetes con npm.
 
 ## Ultima Versión Estable
