@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Prerequisites
 
 - Make sure you have installed the latest version of [`Neovim v0.9.5+`](https://github.com/neovim/neovim/releases/latest).
-- Have [`git`](https://cli.github.com/), [`make`](https://www.gnu.org/software/make/), [`pip`](https://pypi.org/project/pip/), [`python`](https://www.python.org/), [`npm`](https://npmjs.com/), [`node`](https://nodejs.org/), [`cargo`](https://www.rust-lang.org/tools/install) and [`ripgrep`](https://github.com/BurntSushi/ripgrep) installed on your system.
+- Have [`git`](https://cli.github.com/), [`make`](https://www.gnu.org/software/make/), [`pip`](https://pypi.org/project/pip/), [`python`](https://www.python.org/), [`npm`](https://npmjs.com/), [`node`](https://nodejs.org/), [`unzip`](https://launchpad.net/unzip), [`cargo`](https://www.rust-lang.org/tools/install) and [`ripgrep`](https://github.com/BurntSushi/ripgrep) installed on your system.
 - [Resolve `EACCES` permissions when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) to avoid error when installing packages with npm.
 - [`PowerShell 7+`](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.2) (for Windows).
 
@@ -88,9 +88,9 @@ Make sure to check the [troubleshooting](../troubleshooting/README.md) section i
 
 ## Updating LunarVim
 
-- LunarVim updates to the current LunarVim branch's latest commit.  
+- LunarVim updates to the current LunarVim branch's latest commit.
 - `:LvimUpdate` command in command-line mode.
-- `<leader>Lu` using WhichKey.  
+- `<leader>Lu` using WhichKey.
 - From the command-line `lvim +LvimUpdate +q`
 
 ### Update the plugins

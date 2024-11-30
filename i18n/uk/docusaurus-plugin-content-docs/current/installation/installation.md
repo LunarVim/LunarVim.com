@@ -4,14 +4,14 @@ sidebar_position: 1
 
 # Установлення
 
-## Передумови 
+## Передумови
 
 - Упевніться, що ви встановили останюю версію [`Neovim v0.9.0+`](https://github.com/neovim/neovim/releases/latest).
-- [`git`](https://cli.github.com/), [`make`](https://www.gnu.org/software/make/), [`pip`](https://pypi.org/project/pip/), [`python`](https://www.python.org/), [`npm`](https://npmjs.com/), [`node`](https://nodejs.org/) та [`cargo`](https://www.rust-lang.org/tools/install) мають бути встановлені на вашій системі.
+- [`git`](https://cli.github.com/), [`make`](https://www.gnu.org/software/make/), [`pip`](https://pypi.org/project/pip/), [`python`](https://www.python.org/), [`npm`](https://npmjs.com/), [`node`](https://nodejs.org/), [`unzip`](https://launchpad.net/unzip) та [`cargo`](https://www.rust-lang.org/tools/install) мають бути встановлені на вашій системі.
 - [Вирішення проблеми з дозволами `EACCES` під час глобального встановлення пакунків](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally) щоб уникнути помилок під час встановлення пакетів за допомогою npm.
 - [`PowerShell 7+`](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.2) (для Windows).
 
-## Передумови для додаткових функцій 
+## Передумови для додаткових функцій
 - Установіть [`lazygit`](https://github.com/jesseduffield/lazygit#installation). Це дозволяє `<leader>gg` запускати `lazygit` для інтегрованого та розширеного використання Git'а, перебуваючи у `lvim`.
 
 
@@ -88,16 +88,16 @@ docker run -w /root -it --rm alpine:edge sh -uelic 'apk add git neovim ripgrep a
 
 ## Оновлення LunarVim
 
-- LunarVim оновлюється до поточного останнього коміта гілки LunarVim.  
+- LunarVim оновлюється до поточного останнього коміта гілки LunarVim.
 - `:LvimUpdate` команда в режимі командного рядка.
-- `<leader>Lu` використовуючи WhichKey.  
+- `<leader>Lu` використовуючи WhichKey.
 - З командного рядка `lvim +LvimUpdate +q`
 
 ### Оновлення плагінів
 
 - Усередині LunarVim `:LvimSyncCorePlugins`
 
-## Видалення 
+## Видалення
 
 Ви можете видалити LunarVim (включаючи файли налаштувань) використовуючи вбудований `uninstall` скрипт
 

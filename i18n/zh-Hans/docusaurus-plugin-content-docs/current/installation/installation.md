@@ -7,7 +7,7 @@ sidebar_position: 1
 ## 前置条件
 
 - 请确保拥有最新版本的 [`Neovim v0.9.5+`](https://github.com/neovim/neovim/releases/latest)。
-- 在您的系统上安装 [`git`](https://cli.github.com/)、[`make`](https://www.gnu.org/software/make/)、[`pip`](https://pypi.org/project/pip/)、[`python`](https://www.python.org/)、[`npm`](https://npmjs.com/)、[`node`](https://nodejs.org/) 和 [`cargo`](https://www.rust-lang.org/tools/install)。
+- 在您的系统上安装 [`git`](https://cli.github.com/)、[`make`](https://www.gnu.org/software/make/)、[`pip`](https://pypi.org/project/pip/)、[`python`](https://www.python.org/)、[`npm`](https://npmjs.com/)、[`node`](https://nodejs.org/)、['unzip'](https://launchpad.net/unzip) 和 [`cargo`](https://www.rust-lang.org/tools/install)。
 - [解决全局安装程序包时的 `EACCES` 权限错误](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)，以避免使用 npm 安装程序包时出错。
 - [`PowerShell 7+`](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.2)（Windows系统所需）。
 
@@ -89,7 +89,7 @@ docker run -w /root -it --rm alpine:edge sh -uelic 'apk add git neovim ripgrep a
 ## 更新LunarVim
 
 
-- 将 LunarVim 更新到当前 LunarVim 分支的最新提交。 
+- 将 LunarVim 更新到当前 LunarVim 分支的最新提交。
 - 在命令行模式中使用 `:LvimUpdate` 命令。
 - 按下 `<leader>Lu` 使用 WhichKey。
 - 从命令行 `lvim +LvimUpdate +q`
