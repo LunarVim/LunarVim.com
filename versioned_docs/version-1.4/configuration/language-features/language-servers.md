@@ -84,7 +84,7 @@ To set settings for your language server:
 
 Example:
 
-1. `:LspSettings sumneko_lua`
+1. `:LspSettings lua_ls`
 
 2. ```json
    {
@@ -107,7 +107,7 @@ Install `jsonls` LSP server for autocompletion.
 Add the server you wish to configure manually to `lvim.lsp.automatic_configuration.skipped_servers`.
 
 ```lua
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "sumneko_lua" })
+vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "lua_ls" })
 ```
 
 :::info
@@ -128,5 +128,5 @@ local opts = {
     Lua = { hint = { enable = false } },
   },
 }
-require("lvim.lsp.manager").setup("sumneko_lua", opts)
+require("lvim.lsp.manager").setup("lua_ls", opts)
 ```
